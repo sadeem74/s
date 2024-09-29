@@ -10,7 +10,7 @@ struct ContentView: View {
   var body: some View {
       VStack(alignment: .leading) {
           Image(._2_E_616637_E_623_4_B_51_8_E_81_925_DB_36_EE_45_F)
-                          .resizable()
+                    .resizable()
               .aspectRatio(contentMode: .fit)
               .border(Color.blue, width: 3)
               .clipShape(Circle()).overlay(Circle().stroke(Color.blue,lineWidth: 4))
